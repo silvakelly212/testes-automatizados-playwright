@@ -1,18 +1,64 @@
-# comando-git
-# 📘 Prompting para cria;áo de conteúdo (textos, roteiros, ideias)
+# Automação de testes com Playwright e Type Script 
 
-Produção de Conteúdo
-Postagem de texto para plataformas
-   - Instagran
-   - Linkedin
-   - Facebok
-   - Artigos / Blogs
-Modelo base
-Voce é um [profissional x]. Crie um [tipode conteúdo] sobre [tema], voltado para o [público-alvo], com [objetivo]. Use linguagem [informal persuasiva, inspiradora]
-e estrutura [lista, paragrafo, storylling, passo a passo]
+# 📘 Pré - requisitos 
+
+# 📥 Instalação dos Softwares utilizados
+Acesse e instale cada um dos seguintes softwares para prosseguir com o curso.
+Para evitar discrepâncias sobre erros e comandos utilizados, dê preferência para utilizar a mesma versão que utilizo no curso:
+
+- 🔗 [NodeJS](https://nodejs.org/en/download) - estou utilizando a versão 18.14.0 neste curso
+- 🔗 [Git e Git Bash](https://git-scm.com/downloads) - estou utilizando a versão 2.39.2 neste curso
+- - Alternativa - Terminal do MacOS ou iTerm2
+- 🔗 [VSCode](https://code.visualstudio.com/) - estou utilizando a versão 1.76.2 neste curso
+- 
+- # Instalação do Typescript
+
+Para executarmos nosso projeto precisaremos do Typescript instalado. Existe uma extensão para o VSCode que já faz isso. Para isso acesse o link abaixo e instale a extensão caso você já não a tenha instalado:
+
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next
+
 ---
 
+# Instalação do projeto base
 
-## 🔹 Configuração Inicial
-- `git config --global user.name "Seu Nome"` → Define o nome do usuário.
-- `git config --global user.email "seu@email.com"` → Define o e-mail do usuário.
+Após a instalacao dos softwares necessarios vamos configurar o projeto base do Playwright, vamos instalar a base do nosso projeto:
+
+- Clone o repositorio seguinte para sua maquina: https://github.com/marcosvfranco/curso-basico-playwright-pub
+
+  - Clique no botão verde `Code`  
+![Code Button](assets/code.png)
+  - Clique no botão a direita do link exibido para copiar o link  
+![Copy Button](assets/copy.png)
+  - Abra o seu terminal Git Bash ou outro de sua preferencia na pasta que quer clonar o repositório e escreva `git clone  ` e copie o valor da URL
+  - Ficará assim: `git clone https://github.com/marcosvfranco/curso-basico-playwright-pub`
+  - Aperte Enter
+
+Pronto, agora vamos instalar o projeto
+
+- Execute o comando `npm i`
+- Agora execute o comando `npx playwright install`
+
+Perfeito! Agora temos nosso projeto instalado pronto para podermos começar o curso
+
+---
+
+## Observações
+
+A documentação oficial do Playwright nos diz para usar o comando `npm init playwright@latest` para instalar o projeto, mas como queremos focar na versão específica `1.38.1` do Playwright neste curso, não vamos usar esse comando pois ele instala o Playwright na sua última versão.
+
+---
+
+## Documentação do Playwright
+
+A documentação oficial para a instalação do Playwright está neste link  
+https://playwright.dev/docs/intro
+
+# 📚 INsta
+
+📥 Referências 
+
+-  🔗 (https://brq.udemy.com/course/testes-automatizados-com-playwright-typescript-basico-pt-br/learn/lecture/42950930#overview
+-  🔗 (https://github.com/marcosvfranco/curso-basico-playwright-pub/blob/main/tests/example.spec.ts)
+- 
+- 
+
